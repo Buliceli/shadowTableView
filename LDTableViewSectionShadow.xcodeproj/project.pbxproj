@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106AA8946AD26494D3B48755 /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92123FCD59086DF8BD37C3AD /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework */; };
+		783A1F1F2699655B9E456963 /* Pods_LDTableViewSectionShadow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2627388B83D4F7A3B0AB28 /* Pods_LDTableViewSectionShadow.framework */; };
+		A072764424E520A100C9FCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764324E520A100C9FCC8 /* AppDelegate.m */; };
+		A072764724E520A100C9FCC8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764624E520A100C9FCC8 /* SceneDelegate.m */; };
+		A072764A24E520A100C9FCC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764924E520A100C9FCC8 /* ViewController.m */; };
+		A072764D24E520A100C9FCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A072764B24E520A100C9FCC8 /* Main.storyboard */; };
+		A072764F24E520A200C9FCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A072764E24E520A200C9FCC8 /* Assets.xcassets */; };
+		A072765224E520A200C9FCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A072765024E520A200C9FCC8 /* LaunchScreen.storyboard */; };
+		A072765524E520A200C9FCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A072765424E520A200C9FCC8 /* main.m */; };
+		A072765F24E520A300C9FCC8 /* LDTableViewSectionShadowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A072765E24E520A300C9FCC8 /* LDTableViewSectionShadowTests.m */; };
+		A072766A24E520A300C9FCC8 /* LDTableViewSectionShadowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A072766924E520A300C9FCC8 /* LDTableViewSectionShadowUITests.m */; };
+		A072767924E5210700C9FCC8 /* LDHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A072767724E5210700C9FCC8 /* LDHeaderView.m */; };
+		A072767B24E5218000C9FCC8 /* ProvinceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A072767A24E5218000C9FCC8 /* ProvinceData.plist */; };
+		A072767D24E5222000C9FCC8 /* Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png in Resources */ = {isa = PBXBuildFile; fileRef = A072767C24E5222000C9FCC8 /* Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png */; };
+		F89A1F71765477BCC506D355 /* Pods_LDTableViewSectionShadowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A669CBA7983EB5F9A6F34854 /* Pods_LDTableViewSectionShadowTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A072765B24E520A200C9FCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A072763724E520A100C9FCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A072763E24E520A100C9FCC8;
+			remoteInfo = LDTableViewSectionShadow;
+		};
+		A072766624E520A300C9FCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A072763724E520A100C9FCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A072763E24E520A100C9FCC8;
+			remoteInfo = LDTableViewSectionShadow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FCCBD63B6CC771E3957D0C /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.release.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		230A7977E5AF86EB829BB290 /* Pods-LDTableViewSectionShadow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadow.release.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadow/Pods-LDTableViewSectionShadow.release.xcconfig"; sourceTree = "<group>"; };
+		3D2627388B83D4F7A3B0AB28 /* Pods_LDTableViewSectionShadow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDTableViewSectionShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAA498B1CC273EB2258D552 /* Pods-LDTableViewSectionShadow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadow.debug.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadow/Pods-LDTableViewSectionShadow.debug.xcconfig"; sourceTree = "<group>"; };
+		6980EBAC82E583078771A036 /* Pods-LDTableViewSectionShadowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadowTests.release.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadowTests/Pods-LDTableViewSectionShadowTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ECE056948FA5CFFE67E40E2 /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.debug.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92123FCD59086DF8BD37C3AD /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072763F24E520A100C9FCC8 /* LDTableViewSectionShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDTableViewSectionShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072764224E520A100C9FCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A072764324E520A100C9FCC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A072764524E520A100C9FCC8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A072764624E520A100C9FCC8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A072764824E520A100C9FCC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A072764924E520A100C9FCC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A072764C24E520A100C9FCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A072764E24E520A200C9FCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A072765124E520A200C9FCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A072765324E520A200C9FCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A072765424E520A200C9FCC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A072765A24E520A200C9FCC8 /* LDTableViewSectionShadowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTableViewSectionShadowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072765E24E520A300C9FCC8 /* LDTableViewSectionShadowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDTableViewSectionShadowTests.m; sourceTree = "<group>"; };
+		A072766024E520A300C9FCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A072766524E520A300C9FCC8 /* LDTableViewSectionShadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDTableViewSectionShadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A072766924E520A300C9FCC8 /* LDTableViewSectionShadowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDTableViewSectionShadowUITests.m; sourceTree = "<group>"; };
+		A072766B24E520A300C9FCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A072767724E5210700C9FCC8 /* LDHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHeaderView.m; sourceTree = "<group>"; };
+		A072767824E5210700C9FCC8 /* LDHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHeaderView.h; sourceTree = "<group>"; };
+		A072767A24E5218000C9FCC8 /* ProvinceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvinceData.plist; sourceTree = "<group>"; };
+		A072767C24E5222000C9FCC8 /* Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png"; sourceTree = "<group>"; };
+		A669CBA7983EB5F9A6F34854 /* Pods_LDTableViewSectionShadowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDTableViewSectionShadowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01D9D02986A62E11A19306A /* Pods-LDTableViewSectionShadowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDTableViewSectionShadowTests.debug.xcconfig"; path = "Target Support Files/Pods-LDTableViewSectionShadowTests/Pods-LDTableViewSectionShadowTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A072763C24E520A100C9FCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783A1F1F2699655B9E456963 /* Pods_LDTableViewSectionShadow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072765724E520A200C9FCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89A1F71765477BCC506D355 /* Pods_LDTableViewSectionShadowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072766224E520A300C9FCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106AA8946AD26494D3B48755 /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB02B357D8A4435EDAB031F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2627388B83D4F7A3B0AB28 /* Pods_LDTableViewSectionShadow.framework */,
+				92123FCD59086DF8BD37C3AD /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework */,
+				A669CBA7983EB5F9A6F34854 /* Pods_LDTableViewSectionShadowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19971CA359CBE2A5622A410D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA498B1CC273EB2258D552 /* Pods-LDTableViewSectionShadow.debug.xcconfig */,
+				230A7977E5AF86EB829BB290 /* Pods-LDTableViewSectionShadow.release.xcconfig */,
+				7ECE056948FA5CFFE67E40E2 /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.debug.xcconfig */,
+				03FCCBD63B6CC771E3957D0C /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.release.xcconfig */,
+				B01D9D02986A62E11A19306A /* Pods-LDTableViewSectionShadowTests.debug.xcconfig */,
+				6980EBAC82E583078771A036 /* Pods-LDTableViewSectionShadowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A072763624E520A100C9FCC8 = {
+			isa = PBXGroup;
+			children = (
+				A072764124E520A100C9FCC8 /* LDTableViewSectionShadow */,
+				A072765D24E520A200C9FCC8 /* LDTableViewSectionShadowTests */,
+				A072766824E520A300C9FCC8 /* LDTableViewSectionShadowUITests */,
+				A072764024E520A100C9FCC8 /* Products */,
+				19971CA359CBE2A5622A410D /* Pods */,
+				0FB02B357D8A4435EDAB031F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A072764024E520A100C9FCC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A072763F24E520A100C9FCC8 /* LDTableViewSectionShadow.app */,
+				A072765A24E520A200C9FCC8 /* LDTableViewSectionShadowTests.xctest */,
+				A072766524E520A300C9FCC8 /* LDTableViewSectionShadowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A072764124E520A100C9FCC8 /* LDTableViewSectionShadow */ = {
+			isa = PBXGroup;
+			children = (
+				A072767C24E5222000C9FCC8 /* Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png */,
+				A072767A24E5218000C9FCC8 /* ProvinceData.plist */,
+				A072764224E520A100C9FCC8 /* AppDelegate.h */,
+				A072764324E520A100C9FCC8 /* AppDelegate.m */,
+				A072764524E520A100C9FCC8 /* SceneDelegate.h */,
+				A072764624E520A100C9FCC8 /* SceneDelegate.m */,
+				A072764824E520A100C9FCC8 /* ViewController.h */,
+				A072764924E520A100C9FCC8 /* ViewController.m */,
+				A072767824E5210700C9FCC8 /* LDHeaderView.h */,
+				A072767724E5210700C9FCC8 /* LDHeaderView.m */,
+				A072764B24E520A100C9FCC8 /* Main.storyboard */,
+				A072764E24E520A200C9FCC8 /* Assets.xcassets */,
+				A072765024E520A200C9FCC8 /* LaunchScreen.storyboard */,
+				A072765324E520A200C9FCC8 /* Info.plist */,
+				A072765424E520A200C9FCC8 /* main.m */,
+			);
+			path = LDTableViewSectionShadow;
+			sourceTree = "<group>";
+		};
+		A072765D24E520A200C9FCC8 /* LDTableViewSectionShadowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A072765E24E520A300C9FCC8 /* LDTableViewSectionShadowTests.m */,
+				A072766024E520A300C9FCC8 /* Info.plist */,
+			);
+			path = LDTableViewSectionShadowTests;
+			sourceTree = "<group>";
+		};
+		A072766824E520A300C9FCC8 /* LDTableViewSectionShadowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A072766924E520A300C9FCC8 /* LDTableViewSectionShadowUITests.m */,
+				A072766B24E520A300C9FCC8 /* Info.plist */,
+			);
+			path = LDTableViewSectionShadowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A072763E24E520A100C9FCC8 /* LDTableViewSectionShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A072766E24E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadow" */;
+			buildPhases = (
+				FFE4B0837F3A234D70E45A75 /* [CP] Check Pods Manifest.lock */,
+				A072763B24E520A100C9FCC8 /* Sources */,
+				A072763C24E520A100C9FCC8 /* Frameworks */,
+				A072763D24E520A100C9FCC8 /* Resources */,
+				CF9B95760ECB16FCFE7E75B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDTableViewSectionShadow;
+			productName = LDTableViewSectionShadow;
+			productReference = A072763F24E520A100C9FCC8 /* LDTableViewSectionShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A072765924E520A200C9FCC8 /* LDTableViewSectionShadowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A072767124E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadowTests" */;
+			buildPhases = (
+				658F1A39873BC0A693496555 /* [CP] Check Pods Manifest.lock */,
+				A072765624E520A200C9FCC8 /* Sources */,
+				A072765724E520A200C9FCC8 /* Frameworks */,
+				A072765824E520A200C9FCC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A072765C24E520A200C9FCC8 /* PBXTargetDependency */,
+			);
+			name = LDTableViewSectionShadowTests;
+			productName = LDTableViewSectionShadowTests;
+			productReference = A072765A24E520A200C9FCC8 /* LDTableViewSectionShadowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A072766424E520A300C9FCC8 /* LDTableViewSectionShadowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A072767424E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadowUITests" */;
+			buildPhases = (
+				7229C8EBB6CC2FAE6F3A1A59 /* [CP] Check Pods Manifest.lock */,
+				A072766124E520A300C9FCC8 /* Sources */,
+				A072766224E520A300C9FCC8 /* Frameworks */,
+				A072766324E520A300C9FCC8 /* Resources */,
+				35BB44018C9247AEB8AFC397 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A072766724E520A300C9FCC8 /* PBXTargetDependency */,
+			);
+			name = LDTableViewSectionShadowUITests;
+			productName = LDTableViewSectionShadowUITests;
+			productReference = A072766524E520A300C9FCC8 /* LDTableViewSectionShadowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A072763724E520A100C9FCC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "李洞洞";
+				TargetAttributes = {
+					A072763E24E520A100C9FCC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A072765924E520A200C9FCC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A072763E24E520A100C9FCC8;
+					};
+					A072766424E520A300C9FCC8 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A072763E24E520A100C9FCC8;
+					};
+				};
+			};
+			buildConfigurationList = A072763A24E520A100C9FCC8 /* Build configuration list for PBXProject "LDTableViewSectionShadow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A072763624E520A100C9FCC8;
+			productRefGroup = A072764024E520A100C9FCC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A072763E24E520A100C9FCC8 /* LDTableViewSectionShadow */,
+				A072765924E520A200C9FCC8 /* LDTableViewSectionShadowTests */,
+				A072766424E520A300C9FCC8 /* LDTableViewSectionShadowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A072763D24E520A100C9FCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A072767B24E5218000C9FCC8 /* ProvinceData.plist in Resources */,
+				A072765224E520A200C9FCC8 /* LaunchScreen.storyboard in Resources */,
+				A072764F24E520A200C9FCC8 /* Assets.xcassets in Resources */,
+				A072764D24E520A100C9FCC8 /* Main.storyboard in Resources */,
+				A072767D24E5222000C9FCC8 /* Simulator Screen Shot - iPhone 7 - 2020-08-13 at 15.22.47.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072765824E520A200C9FCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072766324E520A300C9FCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35BB44018C9247AEB8AFC397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658F1A39873BC0A693496555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDTableViewSectionShadowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7229C8EBB6CC2FAE6F3A1A59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9B95760ECB16FCFE7E75B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow/Pods-LDTableViewSectionShadow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow/Pods-LDTableViewSectionShadow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LDTableViewSectionShadow/Pods-LDTableViewSectionShadow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE4B0837F3A234D70E45A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDTableViewSectionShadow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A072763B24E520A100C9FCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A072764A24E520A100C9FCC8 /* ViewController.m in Sources */,
+				A072764424E520A100C9FCC8 /* AppDelegate.m in Sources */,
+				A072767924E5210700C9FCC8 /* LDHeaderView.m in Sources */,
+				A072765524E520A200C9FCC8 /* main.m in Sources */,
+				A072764724E520A100C9FCC8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072765624E520A200C9FCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A072765F24E520A300C9FCC8 /* LDTableViewSectionShadowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A072766124E520A300C9FCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A072766A24E520A300C9FCC8 /* LDTableViewSectionShadowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A072765C24E520A200C9FCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A072763E24E520A100C9FCC8 /* LDTableViewSectionShadow */;
+			targetProxy = A072765B24E520A200C9FCC8 /* PBXContainerItemProxy */;
+		};
+		A072766724E520A300C9FCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A072763E24E520A100C9FCC8 /* LDTableViewSectionShadow */;
+			targetProxy = A072766624E520A300C9FCC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A072764B24E520A100C9FCC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A072764C24E520A100C9FCC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A072765024E520A200C9FCC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A072765124E520A200C9FCC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A072766C24E520A300C9FCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A072766D24E520A300C9FCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A072766F24E520A300C9FCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAA498B1CC273EB2258D552 /* Pods-LDTableViewSectionShadow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A072767024E520A300C9FCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230A7977E5AF86EB829BB290 /* Pods-LDTableViewSectionShadow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A072767224E520A300C9FCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01D9D02986A62E11A19306A /* Pods-LDTableViewSectionShadowTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDTableViewSectionShadow.app/LDTableViewSectionShadow";
+			};
+			name = Debug;
+		};
+		A072767324E520A300C9FCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6980EBAC82E583078771A036 /* Pods-LDTableViewSectionShadowTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDTableViewSectionShadow.app/LDTableViewSectionShadow";
+			};
+			name = Release;
+		};
+		A072767524E520A300C9FCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECE056948FA5CFFE67E40E2 /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDTableViewSectionShadow;
+			};
+			name = Debug;
+		};
+		A072767624E520A300C9FCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FCCBD63B6CC771E3957D0C /* Pods-LDTableViewSectionShadow-LDTableViewSectionShadowUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KEYUS28E5F;
+				INFOPLIST_FILE = LDTableViewSectionShadowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxia.LDTableViewSectionShadowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDTableViewSectionShadow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A072763A24E520A100C9FCC8 /* Build configuration list for PBXProject "LDTableViewSectionShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A072766C24E520A300C9FCC8 /* Debug */,
+				A072766D24E520A300C9FCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A072766E24E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A072766F24E520A300C9FCC8 /* Debug */,
+				A072767024E520A300C9FCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A072767124E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A072767224E520A300C9FCC8 /* Debug */,
+				A072767324E520A300C9FCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A072767424E520A300C9FCC8 /* Build configuration list for PBXNativeTarget "LDTableViewSectionShadowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A072767524E520A300C9FCC8 /* Debug */,
+				A072767624E520A300C9FCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A072763724E520A100C9FCC8 /* Project object */;
+}
