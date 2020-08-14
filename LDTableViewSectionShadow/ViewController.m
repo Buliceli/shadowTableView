@@ -33,6 +33,7 @@
     dict[@"key"] = @(value);
     NSLog(@"%@",dict);
     NSLog(@"%@",dict[value2]);
+    NSLog(@"啦啦啦");
     
 #endif
     
