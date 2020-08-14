@@ -23,6 +23,10 @@
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = YES;
 }
+- (void)firstCommint
+{
+    NSLog(@"第一次提交");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 #if 1 //其他测试
