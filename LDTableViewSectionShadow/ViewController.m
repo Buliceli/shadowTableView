@@ -27,6 +27,10 @@
 {
     NSLog(@"第一次提交");
 }
+- (void)secondCommint
+{
+    NSLog(@"第二次提交");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 #if 1 //其他测试
