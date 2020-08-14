@@ -31,6 +31,10 @@
 {
     NSLog(@"第二次提交");
 }
+- (void)threeCommint
+{
+    NSLog(@"第三次提交");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 #if 1 //其他测试
