@@ -25,12 +25,25 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+#if 1 //其他测试
+    
+    NSMutableDictionary * dict = [NSMutableDictionary dictionary];
+    NSInteger  value = nil;
+    NSString * value2 = nil;
+    dict[@"key"] = @(value);
+    NSLog(@"%@",dict);
+    NSLog(@"%@",dict[value2]);
+    
+#endif
+    
+#if 0
     _isExpandArray = [[NSMutableArray alloc]init];
     self.view.backgroundColor = [UIColor colorWithRed:246 / 255.0 green:250 / 255.0 blue:253 / 255.0 alpha:1];
     self.view.backgroundColor = UIColor.whiteColor;
     self.navigationItem.title = @"城市列表";
     [self getProvinceDataFromList];
     [self initProvinceTableView];
+#endif
 }
 
 - (void)getProvinceDataFromList{
