@@ -38,7 +38,13 @@
     
     NSLog(@"贮藏后...");
     
+
     NSLog(@"start____000");
+
+    
+    
+    NSLog(@"end___000");
+    
 #endif
     
 #if 0
