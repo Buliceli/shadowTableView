@@ -37,6 +37,8 @@
     NSLog(@"啦啦啦");
     
     NSLog(@"贮藏后...");
+    
+    NSLog(@"start____000");
 #endif
     
 #if 0
