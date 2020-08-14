@@ -26,6 +26,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 #if 1 //其他测试
+
+    
+    NSMutableDictionary * dict = [NSMutableDictionary dictionary];
+    NSInteger  value = nil;
+    NSString * value2 = nil;
+    dict[@"key"] = @(value);
+    NSLog(@"%@",dict);
+    NSLog(@"%@",dict[value2]);
+    NSLog(@"啦啦啦");
+    
+    NSLog(@"贮藏后...");
 #endif
     
 #if 0
