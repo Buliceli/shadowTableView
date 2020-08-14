@@ -35,6 +35,8 @@
     NSLog(@"%@",dict[value2]);
     NSLog(@"啦啦啦");
     
+    NSLog(@"贮藏后...");
+    
 #endif
     
 #if 0
