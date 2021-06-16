@@ -10,6 +10,7 @@
 		106AA8946AD26494D3B48755 /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92123FCD59086DF8BD37C3AD /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework */; };
 		783A1F1F2699655B9E456963 /* Pods_LDTableViewSectionShadow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2627388B83D4F7A3B0AB28 /* Pods_LDTableViewSectionShadow.framework */; };
 		A0428A642679F26600FF1165 /* DDDController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0428A632679F26600FF1165 /* DDDController.m */; };
+		A0428A7F2679F64900FF1165 /* ShuiXieTingXiangController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0428A7E2679F64900FF1165 /* ShuiXieTingXiangController.m */; };
 		A072764424E520A100C9FCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764324E520A100C9FCC8 /* AppDelegate.m */; };
 		A072764724E520A100C9FCC8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764624E520A100C9FCC8 /* SceneDelegate.m */; };
 		A072764A24E520A100C9FCC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A072764924E520A100C9FCC8 /* ViewController.m */; };
@@ -52,6 +53,8 @@
 		92123FCD59086DF8BD37C3AD /* Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDTableViewSectionShadow_LDTableViewSectionShadowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0428A622679F26600FF1165 /* DDDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDDController.h; sourceTree = "<group>"; };
 		A0428A632679F26600FF1165 /* DDDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDController.m; sourceTree = "<group>"; };
+		A0428A7D2679F64900FF1165 /* ShuiXieTingXiangController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuiXieTingXiangController.h; sourceTree = "<group>"; };
+		A0428A7E2679F64900FF1165 /* ShuiXieTingXiangController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuiXieTingXiangController.m; sourceTree = "<group>"; };
 		A072763F24E520A100C9FCC8 /* LDTableViewSectionShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDTableViewSectionShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A072764224E520A100C9FCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A072764324E520A100C9FCC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 				A072764924E520A100C9FCC8 /* ViewController.m */,
 				A0428A622679F26600FF1165 /* DDDController.h */,
 				A0428A632679F26600FF1165 /* DDDController.m */,
+				A0428A7D2679F64900FF1165 /* ShuiXieTingXiangController.h */,
+				A0428A7E2679F64900FF1165 /* ShuiXieTingXiangController.m */,
 				A072767824E5210700C9FCC8 /* LDHeaderView.h */,
 				A072767724E5210700C9FCC8 /* LDHeaderView.m */,
 				A072764B24E520A100C9FCC8 /* Main.storyboard */,
@@ -435,6 +440,7 @@
 			files = (
 				A072764A24E520A100C9FCC8 /* ViewController.m in Sources */,
 				A072764424E520A100C9FCC8 /* AppDelegate.m in Sources */,
+				A0428A7F2679F64900FF1165 /* ShuiXieTingXiangController.m in Sources */,
 				A072767924E5210700C9FCC8 /* LDHeaderView.m in Sources */,
 				A072765524E520A200C9FCC8 /* main.m in Sources */,
 				A0428A642679F26600FF1165 /* DDDController.m in Sources */,
