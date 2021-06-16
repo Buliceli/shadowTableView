@@ -22,6 +22,11 @@
 {
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.hidden = YES;
+    
+    
+    
+    NSLog(@"%@",@"999");
+    
 }
 - (void)firstCommint
 {
